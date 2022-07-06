@@ -1,6 +1,11 @@
+:root{
+  --primary-color1: #06283D;
+
+}
+
 body {
     
-  background-color:  #06283D;
+  background-color: var(--primary-color1);
     color: #Dff6FF;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -17,7 +22,6 @@ hr {
 h1{
   font-family: 'Sacramento';
   color: #47B5FF;
-  width: 10%;
   margin: 0 auto 0 auto;
 }
 h2, h3{
@@ -52,6 +56,7 @@ h2, h3{
 .Mypic{
   border-radius: 50%;
   margin-top: 10%;
+  box-shadow: 20px;
 }
 
 .boxparent{
@@ -70,6 +75,14 @@ h2, h3{
   left: 30%;
 }
 
+.picbranch{
+  display: inline-block;
+  max-width: 80%;
+  height: 1.5em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap; 
+}
 
 .container2{
   background-color: red;
@@ -122,5 +135,19 @@ h2, h3{
 
 .computer-pic{
   border-radius: 50%;
-  size: 50%;
+  max-width: 22%;
+  height: auto;
+}
+
+.spacing{
+  height: 20%;
+  width: 10%;
+  background-color: 
+}
+
+.about-me-text{
+  max-width: 60%;
+  text-align: center;
+  position: relative;
+  left: 20%;
 }
