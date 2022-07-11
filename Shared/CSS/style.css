@@ -1,14 +1,17 @@
-:root{
+:root {
   --primary-color1: #06283D;
+  --primary-color2: #1363DF;
+  --primary-color3: #47B5FF;
+  --primary-color4: #Dff6ff;
 
 }
 
 body {
-    
+
   background-color: var(--primary-color1);
-    color: #Dff6FF;
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
+  color: var(--primary-color4);
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
 
 hr {
@@ -19,47 +22,51 @@ hr {
   width: 5%;
 }
 
-h1{
+h1 {
   font-family: 'Sacramento';
-  color: #47B5FF;
+  color: var(--primary-color2);
   margin: 0 auto 0 auto;
+  font-size: 5.625em;
 }
-h2, h3{
-  color: #47B5FF;
+
+h2,
+h3 {
+  color: var(--primary-color3);
   width: 10%;
   margin: 0 auto 0 auto;
 }
 
-.backgroundpic{
+.backgroundpic {
   object-fit: contain;
 }
 
- /* Dropdown Button */
- .dropbtn {
-    background-color: whitesmoke;
-    color: black;
-    padding: 5px;
-    font-size: 15px;
-    border: none;
-  }
-  
-  /* The container <div> - needed to position the dropdown content */
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
+/* Dropdown Button */
+.dropbtn {
+  background-color: whitesmoke;
+  color: black;
+  padding: 5px;
+  font-size: 15px;
+  border: none;
+}
 
-  .myname {
-    
-  }
-  
-.Mypic{
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.personal-profile {
+  color: var(--primary-color3);
+  font-weight: bold;
+}
+
+.Mypic {
   border-radius: 50%;
   margin-top: 10%;
   box-shadow: 20px;
 }
 
-.boxparent{
+.boxparent {
   background-color: grey;
   height: 300px;
   width: 300px;
@@ -67,7 +74,7 @@ h2, h3{
   left: 30px;
 }
 
-.container1{
+.container1 {
   background-color: blue;
   width: 100px;
   height: 100px;
@@ -75,16 +82,16 @@ h2, h3{
   left: 30%;
 }
 
-.picbranch{
+.picbranch {
   display: inline-block;
   max-width: 80%;
   height: 1.5em;
   overflow: hidden;
   text-overflow: ellipsis;
-  white-space: nowrap; 
+  white-space: nowrap;
 }
 
-.container2{
+.container2 {
   background-color: red;
   width: 100px;
   height: 100px;
@@ -93,61 +100,94 @@ h2, h3{
   top: 50%;
 }
 
-.container3{
+.container3 {
   background-color: green;
   width: 100px;
   height: 100px;
   margin: 10px;
   position: absolute;
   left: 20%
-
 }
 
-.name-curs{
+.name-curs {
   font-style: cursive;
-  font-family:Verdana, Geneva, Tahoma, sans-serif
+  font-family: Verdana, Geneva, Tahoma, sans-serif
 }
 
-.eduTable{
+.eduTable {
   border: 1px solid black;
-} 
+}
 
-.boxpic{
+.boxpic {
   display: none;
 }
 
-.top-container{
+.top-container {
   position: relative;
-  padding-top: 100px; 
+  padding-top: 100px;
 }
 
-.top-cloud{
+.top-cloud {
   position: absolute;
   right: 300px;
   top: 50px;
 }
 
-.bottom-cloud{
+.bottom-cloud {
   position: absolute;
   left: 300px;
   bottom: 300px;
 }
 
-.computer-pic{
+.computer-logo {
   border-radius: 50%;
-  max-width: 22%;
+  max-width: 17%;
   height: auto;
 }
 
-.spacing{
+.spacing {
   height: 20%;
   width: 10%;
-  background-color: 
+
 }
 
-.about-me-text{
+.about-me-text {
   max-width: 60%;
   text-align: center;
   position: relative;
   left: 20%;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: var(--primary-color3);
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-row p {
+  margin: 30px auto 30px auto;
+}
+
+.java-icon {
+  width: 20%;
+  float: left;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+.java-icon{
+  margin-left:auto;
+}
+
+.cpp-logo {
+  width: 20%;
+  margin-top: 10px;
+  float:right;
+  margin-left: 30px;
 }
